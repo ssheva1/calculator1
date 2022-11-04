@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>calculator</title>
+</head>
+<body>
+
+<script>
+
+    function func1(){
+          var a = Number(document.getElementById("a").value);
+          var b = Number(document.getElementById("b").value);
+          var res1 = a + b;
+
+          document.getElementById("res1").innerHTML = res1;
+          }
+ 
+    function func2(){
+          var c = Number(document.getElementById("c").value);
+          var d = Number(document.getElementById("d").value);
+          var res2 = c - d;
+
+          document.getElementById("res2").innerHTML = res2;
+          }
+ 
+    function func3(){
+          var x = Number(document.getElementById("x").value);
+          var y = Number(document.getElementById("y").value);
+          var res3 = x ** y;
+
+          document.getElementById("res3").innerHTML = res3;
+          }
+    function func4(){
+          var f = Number(document.getElementById("f").value);
+          var h = Number(document.getElementById("h").value);
+          var res4 = f * h;
+
+          document.getElementById("res4").innerHTML = res4;
+          }
+		  
+	function func5(){
+          var r = Number(document.getElementById("r").value);
+          var k = Number(document.getElementById("k").value);
+          var res5 = r / k;
+
+          document.getElementById("res5").innerHTML = res5;
+          }
+ </script>
+ 
+<p>ADDITION</p>
+     <input id="a"/>
+     +
+     <input id="b"/>
+     <button onclick="func1()">get the result</button>
+     <p id="res1"></p><br><br>
+
+
+ <p>SUBTRACTION</p>
+      <input id="c"/>
+      -
+      <input id="d"/>
+      <button onclick="func2()">get the result</button>
+      <p id="res2"></p><br><br>
+
+
+ 
+<p>EXPONENTIATION</p>
+     <input id="x"/>
+      ^
+      <input id="y"/>
+      <button onclick="func3()">get the result</button>
+       <p id="res3"></p><br><br>
+ 
+<p>MULTIPLICATION</p>
+       <input id="f"/>
+       *
+       <input id="h"/>
+       <button onclick="func4()">get the result</button>
+       <p id="res4"></p><br><br>
+	   
+<p>DIVISION</p>
+       <input id="r"/>
+       /
+       <input id="k"/>
+       <button onclick="func5()">get the result</button>
+       <p id="res5"></p><br><br>
+	   
+	   <p>виконав курсант С-11 группи Шевченко В. С.</p>
+	   
+	   
+	   
+
+ 
+
+
+
+
+
+</body>
+</html>
